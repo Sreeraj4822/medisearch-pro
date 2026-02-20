@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import withPWA from "next-pwa";
+
+const isDev = process.env.NODE_ENV === "development";
 
 const nextConfig: NextConfig = {
   experimental: {
@@ -11,7 +14,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "picsum.photos",
+        hostname: "**",
       },
     ],
   },
@@ -25,4 +28,9 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withPWA({
+  dest: "public",
+  disable: isDev,
+  register: true,
+  skipWaiting: true,
+})(nextConfig);

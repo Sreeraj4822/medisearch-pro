@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MediSearch Pro</string>
+    <string name="title_activity_main">MediSearch Pro</string>
+    <string name="package_name">com.sreeraj.medisearch</string>
+    <string name="custom_url_scheme">com.sreeraj.medisearch</string>
+</resources>
