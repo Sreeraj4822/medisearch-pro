@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "doctor-1",
+      "description": "A friendly-looking female doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmZW1hbGUlMjBkb2N0b3J8ZW58MHx8fHwxNzcxMzA0NTc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female doctor"
+    },
+    {
+      "id": "doctor-2",
+      "description": "An experienced male doctor in his office.",
+      "imageUrl": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWxlJTIwZG9jdG9yfGVufDB8fHx8MTc3MTMyMDUwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male doctor"
+    },
+    {
+      "id": "doctor-3",
+      "description": "A young female surgeon.",
+      "imageUrl": "https://images.unsplash.com/photo-1652549210870-bf3a6955f9d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmZW1hbGUlMjBzdXJnZW9ufGVufDB8fHx8MTc3MTMzNTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female surgeon"
+    },
+    {
+      "id": "doctor-4",
+      "description": "A mature pediatrician smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1709127347876-9636bed47ab2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwcGVkaWF0cmljaWFufGVufDB8fHx8MTc3MTMzNTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male pediatrician"
+    },
+    {
+      "id": "hospital-1",
+      "description": "The exterior of a modern hospital building.",
+      "imageUrl": "https://images.unsplash.com/photo-1532219655078-296f1007d298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBob3NwaXRhbHxlbnwwfHx8fDE3NzEyNTUyNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern hospital"
+    },
+    {
+      "id": "hospital-2",
+      "description": "A hospital entrance with a sign.",
+      "imageUrl": "https://images.unsplash.com/photo-1764383381198-0fff09cb38b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxob3NwaXRhbCUyMGVudHJhbmNlfGVufDB8fHx8MTc3MTMzNTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital entrance"
+    },
+    {
+      "id": "hospital-3",
+      "description": "An aerial view of a large medical center.",
+      "imageUrl": "https://images.unsplash.com/photo-1615631508158-ce306dc0dcb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZWRpY2FsJTIwY2VudGVyfGVufDB8fHx8MTc3MTMzNTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical center"
+    }
+  ]
+}
