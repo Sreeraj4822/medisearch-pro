@@ -37,12 +37,6 @@ const features = [
     icon: <Hospital className="size-8 text-primary" />,
   },
   {
-    title: 'Doctor Finder',
-    description: 'Find the right specialist for your needs.',
-    href: '/doctors',
-    icon: <HeartPulse className="size-8 text-primary" />,
-  },
-  {
     title: 'Report Analyzer',
     description: 'Get an AI analysis of your blood test report.',
     href: '/summarizer',
