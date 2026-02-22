@@ -2,17 +2,15 @@
   "name": "medisearch-pro",
   "version": "0.1.0",
   "private": true,
-  "main": "electron.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && node node_modules/electron/cli.js .\"",
-    "electron": "electron .",
-    "dist": "npm run build && electron-builder",
-    "release": "npm run build && electron-builder --publish always"
+    "start": "next start"
   },
   "dependencies": {
+    "@genkit-ai/google-genai": "^1.29.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@prisma/client": "^7.4.1",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",
     "@radix-ui/react-avatar": "^1.1.11",
@@ -36,48 +34,27 @@
     "@radix-ui/react-tooltip": "^1.2.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "electron-updater": "^6.8.3",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
+    "genkit": "^1.29.0",
     "lucide-react": "^0.575.0",
+    "mysql2": "^3.17.4",
     "next": "^15.5.12",
     "next-pwa": "^5.6.0",
+    "prisma": "^7.4.1",
     "react": "^19.2.1",
+    "react-day-picker": "^9.13.2",
     "react-dom": "^19.2.1",
+    "react-hook-form": "^7.71.2",
     "tailwind-merge": "^3.5.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/react": "19.2.14",
     "autoprefixer": "^10.4.24",
-    "concurrently": "^9.2.1",
-    "electron": "^40.6.0",
-    "electron-builder": "^26.8.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.1",
-    "typescript": "5.9.3",
-    "wait-on": "^9.0.4"
-  },
-  "build": {
-    "appId": "com.medisearch.pro",
-    "productName": "MediSearch Pro",
-    "files": [
-      "electron.js",
-      ".next/**/*",
-      "public/**/*",
-      "package.json"
-    ],
-    "win": {
-      "target": "nsis"
-    },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true
-    },
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "Sreeraj4822",
-        "repo": "medisearch-pro"
-      }
-    ]
+    "typescript": "5.9.3"
   }
 }
